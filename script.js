@@ -13,7 +13,7 @@ let interval; //store timer values
 function startTimer() {
     tens++;
     if(tens < 9) {
-        appendTens.innerHTML = "0" + tens;  
+        appendTens.innerHTML = "0" + tens; 
     }
     if(tens > 9) {
         appendTens.innerHTML = tens;
