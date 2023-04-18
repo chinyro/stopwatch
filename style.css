@@ -61,14 +61,14 @@ button:hover {
 
 /* Footer */
 .footer { 
-  margin-top: 800px;
+  margin-top: 600px;
   position: absolute; 
 }
 .footer p {
   font-size: 1.2rem;
   text-align: center;
 }
-.footer p i {
+.footer p i { 
   color: rgb(145, 33, 198);
 }
 /* Gradient signature */

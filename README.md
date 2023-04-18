@@ -1,1 +1,3 @@
 # stopwatch
+
+![](img/stopwatch.gif)
