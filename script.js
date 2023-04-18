@@ -32,10 +32,12 @@ function startTimer() {
 }
 
 buttonStart.onclick = function() {
-    interval = setInterval(startTimer);
+    // The setInterval() method calls a function at specified intervals (in milliseconds).
+    interval = setInterval(startTimer); 
 };
 
 buttonStop.onclick = function() {
+    // The setInterval() method continues calling the function until clearInterval() is called, or the window is closed
     clearInterval(interval);
 };
 
