@@ -13,14 +13,16 @@ let interval; //store timer values
 function startTimer() {
     tens++;
     if(tens < 9) {
-        appendTens.innerHTML = "0" + tens; 
+        // appendTens.innerHTML = "0" + tens; 
+        appendTens.innerHTML = `0${tens}`; 
     }
     if(tens > 9) {
         appendTens.innerHTML = tens;
     }
     if(tens > 99) {
         seconds++;
-        appendSeconds.innerHTML = "0" + seconds;
+        // appendSeconds.innerHTML = "0" + seconds;
+        appendSeconds.innerHTML = `0${seconds}`;
         tens = 0;
         appendTens.innerHTML = "0" + 0; 
     }

@@ -30,6 +30,11 @@ img {
     width: 180px;
 }
 
+#divider {
+    font-size: 45px;
+    padding: 3px;
+}
+
 #seconds, #tens {
     font-size: 3em;
 }
@@ -56,7 +61,7 @@ button:hover {
 
 /* Footer */
 .footer { 
-  margin-top: 760px;
+  margin-top: 800px;
   position: absolute; 
 }
 .footer p {
